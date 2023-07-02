@@ -138,14 +138,14 @@ The designers were also kind enough to present me with mockups for some of the f
 and how they should function. I tried my hardest to replicate the mockups and am pleased with the results.
 
 <div class = "no-padding-bottom;">
-    <img src="/images/iconoclasm/animation_mockup.jpg" width="100%" height="100%">
+    <img src="/images/Iconoclasm/animation_mockup.jpg" width="100%" height="100%">
     <div style="text-align: center;">
         <i> Animation component feature mockup by designers.</i>
     </div>
 </div>
 
 <div class = "no-padding-bottom;">
-    <img src="/images/iconoclasm/animation_feature.jpg" width="100%" height="100%">
+    <img src="/images/Iconoclasm/animation_feature.jpg" width="100%" height="100%">
     <div style="text-align: center;">
         <i> Result.</i>
     </div>
@@ -155,35 +155,35 @@ and how they should function. I tried my hardest to replicate the mockups and am
 # <b>Some pictures and gifs of the Engine² editor:
 
 <div class = "no-padding-bottom;">
-    <img src="/images/iconoclasm/engine.png" width="100%" height="100%">
+    <img src="/images/Iconoclasm/engine.png" width="100%" height="100%">
     <div style="text-align: center;">
         <i> Level 1 of Iconoclasm inside the Engine² Editor.</i>
     </div>
 </div>
 
 <div class = "no-padding-bottom;">
-    <img src="/images/iconoclasm/b.gif" width="100%" height="100%">
+    <img src="/images/Iconoclasm/b.gif" width="100%" height="100%">
     <div style="text-align: center;">
         <i> Running & testing the game from the editor.</i>
     </div>
 </div>
 
 <div class = "no-padding-bottom;">
-    <img src="/images/iconoclasm/adding_entities.gif" width="100%" height="100%">
+    <img src="/images/Iconoclasm/adding_entities.gif" width="100%" height="100%">
     <div style="text-align: center;">
         <i> Instantiating prefabs.</i>
     </div>
 </div>
 
 <div class = "no-padding-bottom;">
-    <img src="/images/iconoclasm/content_browser.gif" width="100%" height="100%">
+    <img src="/images/Iconoclasm/content_browser.gif" width="100%" height="100%">
     <div style="text-align: center;">
         <i> Importing assets.</i>
     </div>
 </div>
 
 <div class = "no-padding-bottom;">
-    <img src="/images/iconoclasm/properties.gif" width="100%" height="100%">
+    <img src="/images/Iconoclasm/properties.gif" width="100%" height="100%">
     <div style="text-align: center;">
         <i> Property inspector.</i>
     </div>
@@ -207,11 +207,11 @@ During the semester break, we were contacted by the school's career services and
 demo session with TiMi Studio's Technical Director, Principal Audio Designer, and other representatives!
 
 <div class = "no-padding-bottom">
-    <img src="/images/iconoclasm/timi1.jpg" width="100%" height="100%">
+    <img src="/images/Iconoclasm/timi1.jpg" width="100%" height="100%">
 </div>
 
 <div class = "no-padding-bottom">
-    <img src="/images/iconoclasm/timi2.jpg" width="100%" height="100%">
+    <img src="/images/Iconoclasm/timi2.jpg" width="100%" height="100%">
     <div style="text-align: center;">
         <i>TiMi studio trying Iconoclasm!</i>
     </div>
@@ -223,35 +223,35 @@ We also had the pleasure of being invited by Ubisoft Singapore for a studio visi
 showcase our projects to the Ubisoft team, receive feedback from professionals, and speak to some of their developers. 
 
 <div class = "no-padding-bottom">
-    <img src="/images/iconoclasm/ubi1.jpg" width="100%" height="100%">
+    <img src="/images/Iconoclasm/ubi1.jpg" width="100%" height="100%">
     <div style="text-align: center;">
         <i>Team GodKillers minus Ching Yin.</i>
     </div>
 </div>
 
 <div class = "no-padding-bottom">
-    <img src="/images/iconoclasm/ubi2.jpg" width="100%" height="100%">
+    <img src="/images/Iconoclasm/ubi2.jpg" width="100%" height="100%">
     <div style="text-align: center;">
         <i>Team GodKillers minus Ching Yin.</i>
     </div>
 </div>
 
 <div class = "no-padding-bottom">
-    <img src="/images/iconoclasm/ubi3.jpg" width="100%" height="100%">
+    <img src="/images/Iconoclasm/ubi3.jpg" width="100%" height="100%">
         <div style="text-align: center;">
         <i>Presenting our project.</i>
     </div>
 </div>
 
 <div class = "no-padding-bottom">
-    <img src="/images/iconoclasm/ubi4.jpg" width="100%" height="100%">
+    <img src="/images/Iconoclasm/ubi4.jpg" width="100%" height="100%">
         <div class="centered-text">
         <i>Setting up playtest session.</i>
     </div>
 </div>
 
 <div class = "no-padding-bottom">
-    <img src="/images/iconoclasm/ubi5.jpg" width="100%" height="100%">
+    <img src="/images/Iconoclasm/ubi5.jpg" width="100%" height="100%">
         <div class="centered-text">
         <i>Getting feedback from Ubisoft developers.</i>
     </div>
