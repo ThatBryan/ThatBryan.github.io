@@ -1,0 +1,33 @@
+.subtitle{
+    margin-top: -1.0em
+}
+
+#project-info{
+    margin-bottom: -1.0em;
+    display: flex;
+    flex-direction: row;
+}
+
+#project-info-item1{
+    flex-basis: 50%;
+}
+
+.project-header{
+    border: 2px solid black;
+    border-radius: 1em;
+    padding: 1em;
+}
+
+.project-title{
+    font-weight: bold;
+}
+
+.centered-text {
+    text-align: center;
+    margin-top: 0;  /* Remove top margin */
+    padding-top: 0;  /* Remove top padding */
+}
+.no-bottom-padding {
+    margin-bottom: 0;
+    padding-bottom: 0%;
+}

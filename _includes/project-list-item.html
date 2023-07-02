@@ -1,0 +1,10 @@
+<div class = "projects">
+    <div class="project-details" >
+        <a href="../{{ project.permalink }}">
+            <img src = "/images/{{project.name}}/thumbnail.png">
+            <h2>{{ include.project.title }}</h2>
+        </a>
+        {% include project-description.html %}
+        <br>
+    </div>
+</div>

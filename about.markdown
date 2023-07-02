@@ -4,15 +4,13 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+Hello there.
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+My name is Bryan, I'm a Junior at the DigiPen Institute of Technology majoring in Computer Science in Real-Time Interactive Simulation.
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+I've been building software in C++ for over 2 years, mostly games and game engines for Windows. <br>
+I specialize in game engine architecture and serialization, with a bit of graphics programming on the side.
 
+During my time as an undergraduate at DigiPen, other than making games, I've dabbled in web development, cloud computing, mobile app development, parallel programming and more.
 
-[jekyll-organization]: https://github.com/jekyll
+I love technology, video games, and building software.
