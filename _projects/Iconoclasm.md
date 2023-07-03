@@ -13,6 +13,18 @@ description: A 3D hack-n-slash action game.
 last-updated: 02-07-2023
 ---
 
+<style>
+    body {
+        color: white; /* Change the text color to red */
+        background-image: url("/images/Iconoclasm/bg2.jpg");
+        background-attachment: fixed;
+        background-position: 50% 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+    }
+</style>
+
 <img src="/images/Iconoclasm/iconoclasm-logo.jpeg" width="100%" height="100%">
 
 Iconoclasm is a 3D hack-n-slash action game powered by Engine², a custom C++ engine.
@@ -38,6 +50,7 @@ by Team GodKillers, a 10 men group.
     - [TiMi Studio: Networking & Demo session](#TiMi)
     - [Ubisoft Singapore Studio Visit](#Ubi)
     - [Final Words](#final_words)
+    
 
 ### <b>Gameplay Showcase: <a name="gameplay_showcase"></a>
 <iframe width="100%" height="450" src="https://www.youtube.com/embed/BCFzNFtZF_E" title="Iconoclasm Gameplay Video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
@@ -104,7 +117,7 @@ This project made use of many third party libraries. The entire list of librarie
 - [stb](https://github.com/nothings/stb): Texture loading library.
 - [TinyDDSLoader](https://github.com/benikabocha/tinyddsloader): DDS texture loading library.
 
-# <b>Contributions: <a name = "contributions"></a>
+# <b>Contributions: <a name="contributions"></a>
 
 Because the designers came from a Unity background, I tried my hardest as the 
 primary editor programmer to reproduce the experience of using Unity's editor. 
@@ -204,7 +217,7 @@ as our team had the pleasure of being invited to two private networking sessions
 #### <b>TiMi Studio: Networking & Demo session:  <a name = "TiMi"></a>
 
 During the semester break, we were contacted by the school's career services and invited to a networking and 
-demo session with TiMi Studio's Technical Director, Principal Audio Designer, and other representatives!
+demo session with TiMi Studio's Technical Director, Principal Audio Designer and other representatives!
 
 <div class = "no-padding-bottom">
     <img src="/images/Iconoclasm/timi1.jpg" width="100%" height="100%">
