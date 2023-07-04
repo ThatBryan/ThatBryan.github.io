@@ -13,4 +13,4 @@ description: Shooter game inspired by the classic arcade game of the same name.
 last-updated: 02-07-2023
 ---
 
-Parcels is a 2D Point and Click Adventure Game with Visual Novel elements.
+<i> TBC

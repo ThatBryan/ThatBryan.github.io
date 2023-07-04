@@ -23,6 +23,13 @@ last-updated: 02-07-2023
         background-size: cover;
         position: relative;
     }
+
+    a{
+        color: #dfdfdf;
+    }
+    a:visited {
+        color: #dfdfdf;
+}
 </style>
 
 <img src="/images/Iconoclasm/iconoclasm-logo.jpeg" width="100%" height="100%">
