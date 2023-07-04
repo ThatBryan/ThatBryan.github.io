@@ -22,7 +22,7 @@ layout: home
         Feel free to reach on to me if you have suggestions about how I might enhance this website.<br><br>
         You can read more about me <a href="/about/">here</a> and view my past projects <a href="/projects/">here</a>.
         
-        <br><br> <i>This website is last updated on: 04/07/2023</i>
+        <br><br> <i>This website was last updated on: 04/07/2023</i>
 
         </p>
     </div>
