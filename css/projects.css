@@ -7,7 +7,6 @@
     margin-bottom: 0;
   }
 
-.gallery img{
-    width: 100%;
-    height: auto;
+.project-details:hover{
+    transform: scale(1.05);
 }
