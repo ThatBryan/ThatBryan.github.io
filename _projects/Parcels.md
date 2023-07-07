@@ -222,23 +222,59 @@ documenting the development on a regular basis. I wished I had taken more images
 If I had to pick an editor feature that I am most proud of, it would have to be the
 animation viewer.
 
+<div class = "no-padding-bottom">
+    <img src="/images/Parcels/Editor/animation_viewer.gif" width="100%" height="100%">
+        <div class="centered-text">
+        <i>Example of using the animation viewer using the protagonist of Parcels.</i>
+    </div>
+</div>
+
+<br>
+The inspiration for this feature actually came from an online source that I unfortunately do not
+remember. I thought it was clue and decided to challenge myself to replicate it.
+I am very happy with how it turned out.
+
 #### <b> Biggest regret: 
-Tilemap editor?
+My greatest regret has to be the tilemap system. It is, ironically, a feature that I am proud of. 
+The regret originates from the mistaken idea that such a feature was required, which resulted in many hours spent. 
+This feature was eventually removed because it was never used. It taught me a hard lesson about not jumping the gun 
+and working on things that aren't necessary. Nonetheless, it still made for an excellent tools development exercise.
+
+<div class = "no-padding-bottom">
+    <img src="/images/Parcels/Editor/tilemap_editor.gif" width="100%" height="100%">
+        <div class="centered-text">
+        <i>Tilemap editor before it was removed.</i>
+    </div>
+</div>
 
 #### <b> Gameplay: <a name="gameplay"></a>
 
-Dialogue system
+In the later development stages of this project, my focus shifted to helping out with the gameplay
+development. 
 
-Journal
+#### <b> Dialogue system:
 
-UI Animations (Easing functions, lerp, bezier curve, gdc talk)
+A dialogue system base class script that the designers could inherit its behavior from.
 
+<div class = "no-padding-bottom">
+    <img src="/images/Parcels/dialogue.gif" width="100%" height="100%">
+        <div class="centered-text">
+        <i>Tilemap editor before it was removed.</i>
+    </div>
+</div>
 
+#### <b> HUD Elements
+
+<i> TBC <br>
+Open bag, feedback, pause menu, cheat menu??
+
+#### <b> 1D Animations (Easing functions, lerp, bezier curve, gdc talk)
+
+<i> TBC
 
 #### <b> Challenges? 
-
-Markup text formatting.
-Lighting?
-
+<i> TBC <br>
+Markup text formatting?
 
 # <b>Post mortem: <a name = "tools"></a>
+<i> TBC
