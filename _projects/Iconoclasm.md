@@ -52,7 +52,7 @@ by Team GodKillers, a 10 men group.
     - [Features](#features)
     - [Tools](#tools)
     - [Libraries](#libraries)
-    - [Contribution](#contributions)
+    - [Contributions](#contributions)
 - [Post mortem](#post_mortem)
     - [TiMi Studio: Networking & Demo session](#TiMi)
     - [Ubisoft Singapore Studio Visit](#Ubi)

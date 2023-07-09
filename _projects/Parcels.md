@@ -10,7 +10,7 @@ school-project: True
 school: DigiPen Institute of Technology Singapore
 module: Software Engineering Project 3-4
 description: A 2D Point and Click Adventure Game with Visual Novel elements.
-last-updated: 02-07-2023
+last-updated: 09-07-2023
 ---
 
 <style>
@@ -43,7 +43,7 @@ Parcels is a 2.5D point-n-click narrative adventure game that follows Greg, a de
   </div>
 </div>
 
-# <b>Table of Contents
+## <b>Table of Contents
 - [Gameplay Showcase](#gameplay_showcase)
 - [Engine Showcase](#engine_showcase)
 - [Development](#development)
@@ -51,25 +51,27 @@ Parcels is a 2.5D point-n-click narrative adventure game that follows Greg, a de
     - [Features](#features)
     - [Tools](#tools)
     - [Libraries](#libraries)
-    - [Contribution](#contributions)
-        - [Graphics](#)
-        - [Editor](#)
-        - [Gameplay](#)
+- [Contributions](#contributions)
+    - [Graphics](#)
+    - [Editor](#)
+    - [Gameplay](#)
 - [Post mortem](#post_mortem)
     - [Final Words](#final_words)
     
     
-### <b>Gameplay Showcase: <a name="gameplay_showcase"></a>
+## <b>Gameplay Showcase: <a name="gameplay_showcase"></a>
 <iframe width="100%" height="450" src="https://www.youtube.com/embed/zEZMtG-oGwY" title="Iconoclasm Gameplay Video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 <div style="text-align: center;">
     <i>Credit: Recorded by Gavin Lim, Product Manager of Pog Studios.</i>
 </div>
 
-### <b>Engine Showcase: <a name="engine_showcase"></a>
+## <b>Engine Showcase: <a name="engine_showcase"></a>
 <iframe width="100%" height="450" src="https://www.youtube.com/embed/XnWB3bPaswY" title="GodKillers - Engine² Showcase" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
+<br>
+
 ## <b>Development: <a name="development"></a>
-# <b>Introduction: <a name = "introduction"></a>
+### <b>Introduction: <a name = "introduction"></a>
 
 This entire endeavor took about three trimesters (12 months) to complete. 
 It began as a two-man initiative during the school holidays by me and a close buddy 
@@ -77,7 +79,7 @@ in order for us to have a head start and gradually learn the ropes before the se
 
 We gradually grew the team to a total of eight people, including four programmers, two designers, and two artists.
 
-# <b>Features: <a name = "features"></a>
+### <b>Features: <a name = "features"></a>
 
 A non-exhausitive list of features available in PogEngine are:
 - Audio.
@@ -90,14 +92,14 @@ A non-exhausitive list of features available in PogEngine are:
 
 Check out some of the features offered by PogEngine <a href="https://www.youtube.com/embed/XnWB3bPaswY" target="_blank">here</a>. 
 
-# <b>Tools: <a name = "tools"></a>
+### <b>Tools: <a name = "tools"></a>
 Tools that we used during development:
 - C++ 
 - GitHub for version control.
 - Visual Studio choice of IDE for development.
 - Discord/Trello for communication and task tracking.
 
-# <b>Libraries: <a name = "libraries"></a>
+### <b>Libraries: <a name = "libraries"></a>
 
 This project made use of many third party libraries. The entire list of libraries used are:
 - [DearImGui](https://github.com/ocornut/imgui): Building blocks for the engine's GUI.
@@ -110,13 +112,13 @@ This project made use of many third party libraries. The entire list of librarie
 - [RapidJSON](https://rapidjson.org/): Serialization of data into JSON files.
 - [stb](https://github.com/nothings/stb): Texture loading library.
 
-# <b>Contributions: <a name="contributions"></a>
+## <b>Contributions: <a name="contributions"></a>
 
 At the time, I was quite interested in computer graphics and tools programming. 
 As a result, I volunteered to be the graphics programmer and level editor champion.
-I also helped with the gameplay programming, concentrating on the game UI and dialogue system.
+I also helped with the gameplay programming, concentrating on the Parcel's UI and dialogue system.
 
-#### <b> Graphics: <a name="graphics"></a>
+### <b> Graphics: <a name="graphics"></a>
 
 At the time, my sole exposure to computer graphics was an introductory module taught in the third trimester of my first year, 
 which coincided with the early development stages of this project. 
@@ -140,7 +142,7 @@ By the end of the project, some key achievements of the graphics system are:
  - Sprite sheet animation.
  - Layering (Background, middleground, foreground, HUD)
 
-#### <b> Editor: <a name="editor"></a>
+### <b> Editor: <a name="editor"></a>
 
 We relied extensively on Dear ImGUI to construct the editor. Despite my lack of experience in creating a level editor, 
 I had an end objective in mind. And that is to reproduce the editing experience in Unity. This turned out to be a far too ambitious aim, 
@@ -220,12 +222,12 @@ documenting the development on a regular basis. I wished I had taken more images
 
 #### <b> Proudest feature: 
 If I had to pick an editor feature that I am most proud of, it would have to be the
-animation viewer.
+animation inspector.
 
 <div class = "no-padding-bottom">
     <img src="/images/Parcels/Editor/animation_viewer.gif" width="100%" height="100%">
         <div class="centered-text">
-        <i>Example of using the animation viewer using the protagonist of Parcels.</i>
+        <i>Example of using the animation inspector.</i>
     </div>
 </div>
 
@@ -247,34 +249,101 @@ and working on things that aren't necessary. Nonetheless, it still made for an e
     </div>
 </div>
 
-#### <b> Gameplay: <a name="gameplay"></a>
+### <b> Gameplay: <a name="gameplay"></a>
 
-In the later development stages of this project, my focus shifted to helping out with the gameplay
-development. 
+In the later phases of Parcels' development, my focus moved to assisting with gameplay development. 
+<br><br>My role was largely focused on implementation, leveraging art assets created by PogStudio's artists and designs mockups drafted by our designers.
 
-#### <b> Dialogue system:
+# <b> Dialogue system:
 
-A dialogue system base class script that the designers could inherit its behavior from.
+One of the gameplay components I worked on was Parcel's dialogue system. It allows designers to control which dialogue <i>(stored in JSON files)</i> to run, what sprites to use, and many more parameters that are accessible via an interface from the scripting engine.
 
+It took me many iterations with both the artists and designers to obtain a product that everyone was statisfied with. Here are some of the early iterations of the dialogue system which features various animations/designs:
+
+#### <b> First iteration:
+First iteration of Parcel's dialogue design. It was scrapped in favor of a different design.
 <div class = "no-padding-bottom">
-    <img src="/images/Parcels/dialogue.gif" width="100%" height="100%">
+    <img src="/images/Parcels/Gameplay/dialogue_old.gif" width="100%" height="100%">
         <div class="centered-text">
-        <i>Tilemap editor before it was removed.</i>
+        <i>First iteration of Parcel's dialogue design. </i>
     </div>
 </div>
 
-#### <b> HUD Elements
+#### <b> Second iteration:
+Second iteration of Parcel's dialogue design. The designers and artists also decided that the game should have some of transition animation that indicates the start of a dialogue. We decided to keep the design, but continue working on the transition animation as the current linear interpolation approach looked boring. 
 
-<i> TBC <br>
-Open bag, feedback, pause menu, cheat menu??
+<div class = "no-padding-bottom">
+    <img src="/images/Parcels/Gameplay/lerp.gif" width="100%" height="100%">
+        <div class="centered-text">
+        <i>Updated layout with transition in animation.</i>
+    </div>
+</div>
 
-#### <b> 1D Animations (Easing functions, lerp, bezier curve, gdc talk)
+#### <b> Third iteration:
+For this iteration, the team decided that we also wanted a transition out animation to indicate the end of a dialogue. For animation, I used a second degree polynomial ease out function this time, but our lead artist had a better idea.
 
-<i> TBC
+<div class = "no-padding-bottom">
+    <img src="/images/Parcels/Gameplay/ease_out.gif" width="100%" height="100%">
+        <div class="centered-text">
+        <i>Transition in and out using second degree polynomial.</i>
+    </div>
+</div>
 
-#### <b> Challenges? 
+<br>
+Our lead artist decided the transition would look best with some <i>"anticipation"</i> to it. To achieve such a effect, I made use of a cubic bezier curve equation. It took some extra back and forth before the lead artist and I were able to fine-tune the control points of the bezier curve in order to achieve a satisfactory result.
+
+<div class = "no-padding-bottom">
+    <img src="/images/Parcels/Gameplay/convo.jpg" width="100%" height="100%">
+        <div class="centered-text">
+        <i>Back and forth between me and our lead artist.</i>
+    </div>
+</div>
+
+#### <b> Final:
+The final look of Parcel's dialogue system:
+
+<div class = "no-padding-bottom">
+    <img src="/images/Parcels/Gameplay/dialogue.gif" width="100%" height="100%">
+        <div class="centered-text">
+        <i>Final iteration.</i>
+    </div>
+</div>
+
+# <b> User Interface:
+
+I also worked on a handful of Parcel's UI such as:
+
+#### <b> Main menu:
+<div class = "no-padding-bottom">
+    <img src="/images/Parcels/Gameplay/menu.gif" width="100%" height="100%">
+        <div class="centered-text">
+        <i>A Parcel's main menu.</i>
+    </div>
+</div>
+
+#### <b>Heads up display & pause menu:
+<div class = "no-padding-bottom">
+    <img src="/images/Parcels/Gameplay/hud.gif" width="100%" height="100%">
+        <div class="centered-text">
+        <i>Parcel's HUD and pause menu.</i>
+    </div>
+</div>
+
+# <b>Ingame cheats:
+In the middle of development, the team noted that it was a bit tedious having to run
+through early sections of the game in order to get to a further point that we are looking to test. To combat this, I developed a cheat system that allows real-time tweaking of variables which dictates the flow of the game, as well as skipping to key developments of the game.
+
+<div class = "no-padding-bottom">
+    <img src="/images/Parcels/Gameplay/cheats.gif" width="100%" height="100%">
+        <div class="centered-text">
+        <i>Parcel's cheat menu.</i>
+    </div>
+</div>
+
+### <b> Challenges? 
+
 <i> TBC <br>
 Markup text formatting?
 
-# <b>Post mortem: <a name = "tools"></a>
+### <b>Post mortem: <a name = "Post mortem"></a>
 <i> TBC
