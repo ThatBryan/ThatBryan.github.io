@@ -260,7 +260,16 @@ In the later phases of Parcels' development, my focus moved to assisting with ga
 
 # <b> Dialogue system: <a name = "dialogue"></a>
 
-One of the gameplay components I worked on was Parcel's dialogue system. It allows designers to control which dialogue <i>(stored in JSON files)</i> to run, what sprites to use, and many more parameters that are accessible via an interface from the scripting engine.
+One of the gameplay components I worked on was Parcel's dialogue system. It allows designers to control which dialogue <i>(stored in JSON files, see image below)</i> to run, what sprites to use, and many more parameters that are accessible via an interface from the scripting engine.
+
+<div class = "no-padding-bottom">
+    <img src="/images/Parcels/Gameplay/dialogueJSON.jpg" width="100%" height="100%">
+        <div class="centered-text">
+        <i>Parcel's dialogue JSON format.</i>
+    </div>
+</div>
+
+<br>
 
 It took me many iterations with both the artists and designers to obtain a product that everyone was statisfied with. Here are some of the early iterations of the dialogue system which features various animations/designs:
 
@@ -317,7 +326,7 @@ The final look of Parcel's dialogue system:
 
 I also worked on a handful of Parcel's UI such as:
 
-#### <b> Main menu:
+#### <b> Main menu & transitions:
 <div class = "no-padding-bottom">
     <img src="/images/Parcels/Gameplay/menu.gif" width="100%" height="100%">
         <div class="centered-text">
