@@ -43,7 +43,7 @@ by Team GodKillers, a 10 men group.
     <i>Team GodKillers logo.</i>
 </div>
 
-# <b>Table of Contents
+## <b>Table of Contents
 - [Gameplay Showcase](#gameplay_showcase)
 - [Gameplay Development Showcase](#development_showcase)
 - [Engine Showcase](#engine_showcase)
@@ -52,38 +52,40 @@ by Team GodKillers, a 10 men group.
     - [Features](#features)
     - [Tools](#tools)
     - [Libraries](#libraries)
-    - [Contributions](#contributions)
+- [Contributions](#contributions)
+    - [Editor](#editor)
+    - [Others](#others)
 - [Post mortem](#post_mortem)
     - [TiMi Studio: Networking & Demo session](#TiMi)
     - [Ubisoft Singapore Studio Visit](#Ubi)
     - [Final Words](#final_words)
     
 
-### <b>Gameplay Showcase: <a name="gameplay_showcase"></a>
+## <b>Gameplay Showcase: <a name="gameplay_showcase"></a>
 <iframe width="100%" height="450" src="https://www.youtube.com/embed/BCFzNFtZF_E" title="Iconoclasm Gameplay Video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 <div style="text-align: center;">
     <i>Credit: Gavin Lim, Product Manager of Team GodKillers.</i>
 </div>
 
-### <b>Gameplay Development Showcase: <a name="development_showcase"></a>
+## <b>Gameplay Development Showcase: <a name="development_showcase"></a>
 <iframe width="100%" height="450" src="https://www.youtube.com/embed/r3cLJztAMaQ" title="Iconoclasm - Development Showcase" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 <div style="text-align: center;">
     <i>Credit: Joel Hoon, Design Lead of Team GodKillers.</i>
 </div>
 
-### <b>Engine Showcase: <a name="engine_showcase"></a>
+## <b>Engine Showcase: <a name="engine_showcase"></a>
 <iframe width="100%" height="450" src="https://www.youtube.com/embed/90ZM4lTItI8" title="GodKillers - Engine² Showcase" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 
 ## <b>Development: <a name="development"></a>
-# <b>Introduction: <a name = "introduction"></a>
+### <b>Introduction: <a name = "introduction"></a>
 
 The creation of this entire project took two trimesters (~8 months). As a student of the Computer Science track, my focus was on building the custom engine (Engine²) 
 that would support the application. The tight deadlines and milestone set by the school, pushed me to design and build the finest solutions I could in the 
 least amount of time. In retrospect, there is much that could have been done to improve the engine, particularly with more foresight given that this was only 
 my second attempt at building an engine.
 
-# <b>Features: <a name = "features"></a>
+### <b>Features: <a name = "features"></a>
 As our designers worked on the prototype in Unity, they provided the features that they used with us so that we know what tools they needed to produce this game. 
 
 A non-exhausitive list of features available in Engine² are:
@@ -99,14 +101,14 @@ A non-exhausitive list of features available in Engine² are:
 
 Check out some of the features offered by Engine² <a href="https://www.youtube.com/embed/90ZM4lTItI8" target="_blank">here</a>. 
 
-# <b>Tools: <a name = "tools"></a>
+### <b>Tools: <a name = "tools"></a>
 Tools that we used during development:
 - C++ 
 - GitHub for version control.
 - Visual Studio choice of IDE for development.
 - Discord/Trello for communication and task tracking.
 
-# <b>Libraries: <a name = "libraries"></a>
+### <b>Libraries: <a name = "libraries"></a>
 
 This project made use of many third party libraries. The entire list of libraries used are:
 - [Assimp](https://github.com/assimp/assimp) : Model importing.
@@ -124,7 +126,12 @@ This project made use of many third party libraries. The entire list of librarie
 - [stb](https://github.com/nothings/stb): Texture loading library.
 - [TinyDDSLoader](https://github.com/benikabocha/tinyddsloader): DDS texture loading library.
 
-# <b>Contributions: <a name="contributions"></a>
+## <b>Contributions: <a name="contributions"></a>
+
+### <b>Editor: <a name="editor"></a>
+
+<i>Note: Maybe add more ss and some writeup on development process, challenges, 
+success/regrets, etc. </i><br>
 
 Because the designers came from a Unity background, I tried my hardest as the 
 primary editor programmer to reproduce the experience of using Unity's editor. 
@@ -143,15 +150,6 @@ Some of the editor features which I have worked on are:
   <li>Gizmo tools.</li>
   <li>Importing assets.</li>
   <li>Asset import settings.</li>
-</ul>
-
-Other contributions:
-<ul>
-  <li>Asset packer.</li>
-  <li>Player preference (player data).</li>
-  <li>Root motion for skeletal animation.</li>
-  <li>Dirty flag optimization.</li>
-  <li>Lots of debugging.</li>
 </ul>
 
 The designers were also kind enough to present me with mockups for some of the features they desired 
@@ -209,6 +207,19 @@ and how they should function. I tried my hardest to replicate the mockups and am
     </div>
 </div>
 
+
+### <b>Others: <a name="others"></a>
+<i>TBC</i><br><br>
+
+Other contributions:
+<ul>
+  <li>Asset packer.</li>
+  <li>Player preference (player data).</li>
+  <li>Root motion for skeletal animation.</li>
+  <li>Dirty flag optimization.</li>
+  <li>Lots of debugging.</li>
+</ul>
+
 ## <b>Post mortem: <a name="post_mortem"></a>
 
 It was a long journey, starting from inception all the way to completion. It started with the
@@ -221,7 +232,7 @@ During the final milestone of this project, the school invited guests from the i
 to watch our presentation. And thankfully, it seemed like our hardwork had not gone unnoticed
 as our team had the pleasure of being invited to two private networking sessions. 
 
-#### <b>TiMi Studio: Networking & Demo session:  <a name = "TiMi"></a>
+### <b>TiMi Studio: Networking & Demo session:  <a name = "TiMi"></a>
 
 During the semester break, we were contacted by the school's career services and invited to a networking and 
 demo session with TiMi Studio's Technical Director, Principal Audio Designer and other representatives!
@@ -237,7 +248,7 @@ demo session with TiMi Studio's Technical Director, Principal Audio Designer and
     </div>
 </div>
 
-#### <b>Ubisoft Singapore Studio Visit: <a name = "Ubi"></a>
+### <b>Ubisoft Singapore Studio Visit: <a name = "Ubi"></a>
 
 We also had the pleasure of being invited by Ubisoft Singapore for a studio visit! We had the chance to 
 showcase our projects to the Ubisoft team, receive feedback from professionals, and speak to some of their developers. 
@@ -277,7 +288,7 @@ showcase our projects to the Ubisoft team, receive feedback from professionals, 
     </div>
 </div>
 
-# <b>Final words: <a name="final_words"></a>
+## <b>Final words: <a name="final_words"></a>
 
 This was my first time working on a project that received such excellent reviews and considering that 
 this was the final major project module at DigiPen, I couldn't have asked for a better finish. 

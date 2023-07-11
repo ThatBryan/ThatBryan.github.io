@@ -9,8 +9,8 @@ end-date: 2022-04-01
 school-project: True
 school: DigiPen Institute of Technology Singapore
 module: Software Engineering Project 3-4
-description: A 2D Point and Click Adventure Game with Visual Novel elements.
-last-updated: 09-07-2023
+description: A 2.5D point-n-click narrative adventure game.
+last-updated: 11-07-2023
 ---
 
 <style>
@@ -25,10 +25,10 @@ last-updated: 09-07-2023
     }
 
       a{
-        color: #ff0000;
+        color: #006fff;
     }
     a:visited {
-        color: #ff0000;  
+        color: #006fff;  
 }
 </style>
 
@@ -52,9 +52,13 @@ Parcels is a 2.5D point-n-click narrative adventure game that follows Greg, a de
     - [Tools](#tools)
     - [Libraries](#libraries)
 - [Contributions](#contributions)
-    - [Graphics](#)
-    - [Editor](#)
-    - [Gameplay](#)
+    - [Graphics](#graphics)
+    - [Editor](#editor)
+    - [Gameplay](#gameplay)
+        - [Dialogue System](#graphics)
+        - [User Interface](#ui)
+        - [In-game Cheats](#cheats)
+    - [Challenges](#challenges)
 - [Post mortem](#post_mortem)
     - [Final Words](#final_words)
     
@@ -254,7 +258,7 @@ and working on things that aren't necessary. Nonetheless, it still made for an e
 In the later phases of Parcels' development, my focus moved to assisting with gameplay development. 
 <br><br>My role was largely focused on implementation, leveraging art assets created by PogStudio's artists and designs mockups drafted by our designers.
 
-# <b> Dialogue system:
+# <b> Dialogue system: <a name = "dialogue"></a>
 
 One of the gameplay components I worked on was Parcel's dialogue system. It allows designers to control which dialogue <i>(stored in JSON files)</i> to run, what sprites to use, and many more parameters that are accessible via an interface from the scripting engine.
 
@@ -309,7 +313,7 @@ The final look of Parcel's dialogue system:
     </div>
 </div>
 
-# <b> User Interface:
+# <b> User Interface: <a name = "ui"></a>
 
 I also worked on a handful of Parcel's UI such as:
 
@@ -329,7 +333,7 @@ I also worked on a handful of Parcel's UI such as:
     </div>
 </div>
 
-# <b>Ingame cheats:
+# <b>Ingame cheats: <a name = "cheats"></a>
 In the middle of development, the team noted that it was a bit tedious having to run
 through early sections of the game in order to get to a further point that we are looking to test. To combat this, I developed a cheat system that allows real-time tweaking of variables which dictates the flow of the game, as well as skipping to key developments of the game.
 
@@ -340,10 +344,35 @@ through early sections of the game in order to get to a further point that we ar
     </div>
 </div>
 
-### <b> Challenges? 
+### <b> Challenges: <a name="challenges"></a>
 
-<i> TBC <br>
-Markup text formatting?
+Because the game placed a strong emphasis on reading, one suggestion the team got from the faculty was to use font changes such as bolding and italics to enrich the experience. This was when the designer mentioned the wish for markup text formatting, i.e writing: "This is b>some text/b>" and rendering "This is" as standard text while bolding "some text."
+
+My first thought was to somehow utilize linear algebra to manipulate the quads that the text were rendered on to achieve such effects. However, I didn't manage to get very far with this method and decided to go ahead with something more naive.
+
+My naive solution was to make use of font familys that already had their own italics and bold fonts in truetype files. During rendering, I would go through the entire string of text and identify the presence of tags to switch between the regulat/bold/italic fonts.
+
+Of course, the use of this naive solution meant that the team's choice of fonts were limited to fonts whom provided the entire variations of font family we were looking for. This was a difficult challenge that I regret not being able to fully complete.
+
+<div class = "no-padding-bottom">
+    <img src="/images/Parcels/Gameplay/raw_text.jpg" width="100%" height="100%">
+        <div class="centered-text">
+        <i>Raw text.</i>
+    </div>
+</div>
+
+<div class = "no-padding-bottom">
+    <img src="/images/Parcels/Gameplay/bold_text.jpg" width="100%" height="100%">
+        <div class="centered-text">
+        <i>Rendered outcome ingame.</i>
+    </div>
+</div>
+
 
 ### <b>Post mortem: <a name = "Post mortem"></a>
-<i> TBC
+
+This was a project of many firsts. First time working with artists and designers, first time working on a large scale project in terms of head count and duration, first time building a custom engine from scratch, first time building a graphics and editor system. 
+
+Looking back, I had a lot of regrets and things I could have done better, from architecture to editing features/tools and even time management. I heard a statement that goes something like this: "You should always cringe when you look back at your previous work." If you didn't, you most likely stagnated and did not improve in the previous year." This sentiment seems to be resonating with me right now, 1.5 years after development.
+
+I took the lessons I learned and the features I hoped I could have incorporated in this project and applied them to my third year project that I am very proud of. More information regarding my third-year project can be found [here](../iconoclasm).
