@@ -253,6 +253,7 @@ and working on things that aren't necessary. Nonetheless, it still made for an e
     </div>
 </div>
 
+
 ### <b> Gameplay: <a name="gameplay"></a>
 
 In the later phases of Parcels' development, my focus moved to assisting with gameplay development. 

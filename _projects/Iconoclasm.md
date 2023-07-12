@@ -163,7 +163,7 @@ and how they should function. I tried my hardest to replicate the mockups and am
 </div>
 
 <div class = "no-padding-bottom;">
-    <img src="/images/Iconoclasm/animation_feature.jpg" width="100%" height="100%">
+    <img src="/images/Iconoclasm/Editor/animation_viewer.jpg" width="100%" height="100%">
     <div style="text-align: center;">
         <i> Result.</i>
     </div>
@@ -180,7 +180,7 @@ and how they should function. I tried my hardest to replicate the mockups and am
 </div>
 
 <div class = "no-padding-bottom;">
-    <img src="/images/Iconoclasm/b.gif" width="100%" height="100%">
+    <img src="/images/Iconoclasm/Editor/editor.gif" width="100%" height="100%">
     <div style="text-align: center;">
         <i> Running & testing the game from the editor.</i>
     </div>
@@ -201,14 +201,28 @@ and how they should function. I tried my hardest to replicate the mockups and am
 </div>
 
 <div class = "no-padding-bottom;">
-    <img src="/images/Iconoclasm/properties.gif" width="100%" height="100%">
+    <img src="/images/Iconoclasm/Editor/properties.gif" width="100%" height="100%">
     <div style="text-align: center;">
         <i> Property inspector.</i>
     </div>
 </div>
 
+<div class = "no-padding-bottom">
+    <img src="/images/Iconoclasm/Editor/filtering.gif" width="100%" height="100%">
+        <div class="centered-text">
+        <i>Entity filtering.</i>
+    </div>
+</div>
+
+<div class = "no-padding-bottom">
+    <img src="/images/Iconoclasm/Editor/copy_paste.gif" width="100%" height="100%">
+        <div class="centered-text">
+        <i>Copy paste values.</i>
+    </div>
+</div>
 
 ### <b>Others: <a name="others"></a>
+
 <i>TBC</i><br><br>
 
 Other contributions:
@@ -219,6 +233,13 @@ Other contributions:
   <li>Dirty flag optimization.</li>
   <li>Lots of debugging.</li>
 </ul>
+
+<div class = "no-padding-bottom">
+    <img src="/images/Iconoclasm/Others/root_motion.gif" width="100%" height="100%">
+        <div class="centered-text">
+        <i>Side by side comparison (Model further back does not have root motion on).</i>
+    </div>
+</div>
 
 ## <b>Post mortem: <a name="post_mortem"></a>
 
