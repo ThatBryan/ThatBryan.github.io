@@ -10,7 +10,7 @@ school-project: True
 school: DigiPen Institute of Technology Singapore
 module: Software Engineering Project 5-6
 description: A 3D hack-n-slash action game.
-last-updated: 02-07-2023
+last-updated: 13-07-2023
 ---
 
 <style>
@@ -25,10 +25,10 @@ last-updated: 02-07-2023
     }
 
     a{
-        color: #dfdfdf;
+        color: #5c75f9;
     }
     a:visited {
-        color: #dfdfdf;
+        color: #5c75f9;
 }
 </style>
 
@@ -155,20 +155,14 @@ Some of the editor features which I have worked on are:
 The designers were also kind enough to present me with mockups for some of the features they desired 
 and how they should function. I tried my hardest to replicate the mockups and am pleased with the results.
 
-<div class = "no-padding-bottom;">
-    <img src="/images/Iconoclasm/animation_mockup.jpg" width="100%" height="100%">
-    <div style="text-align: center;">
-        <i> Animation component feature mockup by designers.</i>
-    </div>
+<div style="display: flex;">
+    <img src="/images/Iconoclasm/Editor/animation_mockup.jpg" width="50%" height="auto%">
+    <img src="/images/Iconoclasm/Editor/animation_viewer.jpg" width="50%" height="auto%">
 </div>
 
-<div class = "no-padding-bottom;">
-    <img src="/images/Iconoclasm/Editor/animation_viewer.jpg" width="100%" height="100%">
-    <div style="text-align: center;">
-        <i> Result.</i>
-    </div>
+<div style="text-align: center;">
+    <i>(Left) Feature design document, (Right) Implementation.</i>
 </div>
-<br>
 
 # <b>Some pictures and gifs of the Engine² editor:
 
@@ -223,22 +217,39 @@ and how they should function. I tried my hardest to replicate the mockups and am
 
 ### <b>Others: <a name="others"></a>
 
-<i>TBC</i><br><br>
+Aside from the editor, I also helped out with some tools development, engine features and the usual debugging and optimization.
 
-Other contributions:
-<ul>
-  <li>Asset packer.</li>
-  <li>Player preference (player data).</li>
-  <li>Root motion for skeletal animation.</li>
-  <li>Dirty flag optimization.</li>
-  <li>Lots of debugging.</li>
-</ul>
+# <b> Asset Packer:
+
+This feature was inspired by a [video](https://www.youtube.com/watch?v=VjlKwQoKluI) I saw on YouTube. An asset packer compiles all of the game's assets (such as models, textures, audio, animation, level data, and so on) into a single file. This provides a plethora of advantages, such as compressing files to an efficient engine-specific format and protecting one's intellectual property.
+
+Because the asset pack was designed to be used primarily when releasing games, I chose to make it binary. This allows for a more computer-friendly reading of the file during deserialization. I did some load time tests and was pleasantly surprised to see that using the asset pack accelerated our loading time up to three folds.
+
+Despite the successes, there were parts of the asset packer I did not manage to attempt. These are compression and obfuscation. As a result, the Iconoclasm asset pack size came in at just under 1.4GB. While I considered working on obfuscation by incorporating some simple encryption, such as the Caesar cipher, I ultimately decided against it in favor of doing less work during runtime for a smoother experience. If I ever have to work on another asset packer, these are two main areas I'd like to focus on. 
+
+# <b> Root motion:
+
+This was a feature that the designers requested be supported by the engine's skeletal animation. You may refer to unreal engine's documentation on root motion [here](https://docs.unrealengine.com/4.27/en-US/AnimatingObjects/SkeletalMeshAnimation/RootMotion/) to learn more.
 
 <div class = "no-padding-bottom">
     <img src="/images/Iconoclasm/Others/root_motion.gif" width="100%" height="100%">
         <div class="centered-text">
         <i>Side by side comparison (Model further back does not have root motion on).</i>
     </div>
+</div>
+
+
+# <b> Dirty flag optimization:
+
+I also worked on optimization using the dirty flag pattern described in a famous book titled "Game Programming Patterns". The impetus for this optimization came from a profiling session that indicated a significant bottleneck in the way we first handled our scene graph. This optimization strategy increased our frame rate from roughly 27 to 66 frames per second. More information on this optimization technique can be found [here](https://gameprogrammingpatterns.com/dirty-flag.html).
+
+
+<div class="no-padding-bottom" style="display: flex; justify-content: center;">
+    <img src="/images/Iconoclasm/game-programming-patterns.jpg" width="40%" height="40%">
+</div>
+
+<div class="centered-text">
+    <i>The book that disscusses the dirty flag optimization pattern.</i>
 </div>
 
 ## <b>Post mortem: <a name="post_mortem"></a>
