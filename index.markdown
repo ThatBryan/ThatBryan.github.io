@@ -6,7 +6,6 @@ layout: home
 ---
 
 <link rel="stylesheet" type="text/css" href="/css/home.css"/>
-<script src="/scripts/home.js"></script>
 <div id="home">
     <div id="profile-card">
         <div className="profile-item" id="profile-info">
@@ -22,7 +21,7 @@ layout: home
         Feel free to reach on to me if you have suggestions about how I might enhance this website.<br><br>
         You can read more about me <a href="/about/">here</a> and view my past projects <a href="/projects/">here</a>.
         
-        <br><br> <i>This website was last updated on: 13/07/2023</i>
+        <br><br> <i>This website was last updated on: 18/07/2023</i>
 
         </p>
     </div>

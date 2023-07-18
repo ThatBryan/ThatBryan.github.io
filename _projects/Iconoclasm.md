@@ -9,8 +9,8 @@ end-date: 2023-03-01
 school-project: True
 school: DigiPen Institute of Technology Singapore
 module: Software Engineering Project 5-6
-description: A 3D hack-n-slash action game.
-last-updated: 13-07-2023
+description: 3D hack-n-slash action game.
+last-updated: 18-07-2023
 ---
 
 <style>
@@ -127,7 +127,7 @@ by Team GodKillers, a 10 men group.
     - [Ubisoft Singapore Studio Visit](#Ubi)
     - [Final Words](#final_words)
     
-## <b>Gallery:
+## <b>Showreel:
 <div class="slideshow-container">
     <div class="mySlides">
         <div class="numbertext">1 / 15</div>

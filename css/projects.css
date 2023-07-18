@@ -1,12 +1,31 @@
-.project-details{
+.container{
     margin-left: 1em;
     margin-bottom: 0;
+    position: relative;
+    max-width: 800px; /* Maximum width */
+    margin: 0 auto; /* Center it */
 }
-.project-details a h2 {
-    font-size: 24px; /* Adjust the desired font size */
+.container .content{
+    font-size: 16px;  /*Adjust the desired font size */
     margin-bottom: 0;
+    position: absolute; /* Position the background text */
+    bottom: 0; /* At the bottom. Use top:0 to append it to the top */
+    background: rgba(0, 0, 0, 0.6); /* Black background with 0.5 opacity */
+    color: #f1f1f1; /* Grey text */
+    width: 100%; /* Full width */
+    text-align: center;
   }
 
-.project-details:hover{
-    transform: scale(1.05);
+  .content{
+    height: 23%;
+    transition: .5s ease;
+  }
+
+.content:hover{
+    height: 27%;
 }
+
+
+.padding{
+    padding-bottom: 50px;
+  }

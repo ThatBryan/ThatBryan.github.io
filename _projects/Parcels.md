@@ -9,7 +9,7 @@ end-date: 2022-04-01
 school-project: True
 school: DigiPen Institute of Technology Singapore
 module: Software Engineering Project 3-4
-description: A 2.5D point-n-click narrative adventure game.
+description: 2.5D point-n-click narrative adventure game.
 last-updated: 11-07-2023
 ---
 
