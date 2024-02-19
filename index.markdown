@@ -16,9 +16,6 @@ layout: home
     </div>
     <div>
         <p>Hello and thank you for visiting my website!<br><br>
-        This website is meant to showcase some of my projects, as well as to learn about web development.<br>
-        As such, please excuse any beginner mistakes you might encounter.<br>
-        Feel free to reach on to me if you have suggestions about how I might enhance this website.<br><br>
         You can read more about me <a href="/about/">here</a> and view my past projects <a href="/projects/">here</a>.
         
         <br><br> <i>This website was last updated on: 18/07/2023</i>
