@@ -10,25 +10,26 @@ last-updated: 21-02-2024
 
 Some stuff that I worked on in my spare time to improve the engine.
 
-Optimizations:
+## <b>Optimizations:></a>
 
 Added some Multi-threadeding
 
-Before:
+### <b>Before:></a>
 <img src="/images/EngineEngine/before.png" width="100%" height="100%">
 <br>
-After:
+### <b>After:></a>
 <img src="/images/EngineEngine/after.png" width="100%" height="100%">
 <br>
 
-Thumbnails
+
+## <b>Thumbnails:></a>
 Also added a thumbnail system for the content browser in the editor.
 
-Materials:
+### <b>Materials:></a>
 <img src="/images/EngineEngine/materials.png" width="100%" height="100%">
 <br>
 
-Models:
+### <b>Models:></a>
 <img src="/images/EngineEngine/models.png" width="100%" height="100%">
 <br>
 
@@ -38,14 +39,14 @@ Models:
 <img src="/images/EngineEngine/models3.png" width="100%" height="100%">
 <br>
 
-Prefabs:
+### <b>Prefabs:></a>
 <img src="/images/EngineEngine/prefabs.png" width="100%" height="100%">
 <br>
 
 <img src="/images/EngineEngine/prefabs2.png" width="100%" height="100%">
 <br>
 
-Textures:
+### <b>Textures:></a>
 <img src="/images/EngineEngine/textures.png" width="100%" height="100%">
 <br>
 
