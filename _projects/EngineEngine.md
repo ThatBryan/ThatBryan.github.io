@@ -3,7 +3,7 @@ layout: project
 name: "EngineEngine"
 title: "EngineEngine"
 permalink: "projects/EngineEngine/"
-start-date: 2024-01-01
+start-date: 2023-07-01
 description: Improving the Engine used for my 3rd year project.
 last-updated: 21-02-2024
 ---
