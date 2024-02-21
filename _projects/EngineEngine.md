@@ -8,11 +8,11 @@ description: Improving the Engine used for my 3rd year project.
 last-updated: 21-02-2024
 ---
 
-These are stuff that I worked on in my spare time to improve the engine.
+The following are some stuff that I worked on in my spare time to improve the engine.
 
 ## <b>Optimizations:
 
-Added some Multi-threadeding
+Added some Multi-threading to speed up areas of the engine.
 
 ### <b>Before:
 <img src="/images/EngineEngine/before.png" width="100%" height="100%">
@@ -23,7 +23,7 @@ Added some Multi-threadeding
 
 
 ## <b>Thumbnails:
-Also added a thumbnails to the content browser of the editor.
+Added thumbnails to the content browser of the editor.
 
 ### <b>Materials:
 <img src="/images/EngineEngine/materials.png" width="100%" height="100%">
