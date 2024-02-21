@@ -10,7 +10,7 @@ last-updated: 21-02-2024
 
 These are stuff that I worked on in my spare time to improve the engine.
 
-## <b>Optimizations:>
+## <b>Optimizations:
 
 Added some Multi-threadeding
 
