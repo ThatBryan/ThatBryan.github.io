@@ -10,7 +10,7 @@ last-updated: 21-02-2024
 
 As part of my final year degree program, I had the pleasure of doing an internship at Ubisoft Singapore as a UI Gameplay Programmer on Skull and Bones.
 
-Contributions: 
+### <b>Contributions: 
 <ul>
 	<li> Collaborated with the UIUX team's product managers, designers, programmers, and artists to ideate, develop, and implement new gameplay features.</li>
 	<li> Maintained and iterated on existing gameplay features for improved user experience based on feedback.</li>
