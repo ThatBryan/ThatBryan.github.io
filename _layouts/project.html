@@ -16,6 +16,9 @@ layout: default
         <p class="subtitle"><a href="{{page.github-link}}">Github Page</a></p>
         {%- endif -%}
         <p class="subtitle"><i> Last updated: {{page.last-updated}}</i></p>
+        {%- if page.download-link -%}
+        <p class="subtitle"><i><a href="{{page.download-link}}">Download here!</a></i></p>
+        {%- endif -%}
       </div>
       <div class="project-detail">
         {%- if page.school-project -%}
