@@ -17,6 +17,16 @@ Made by "The Team" for GGJ Singapore 2024, Pl.ai.giarism (yes it's purposely mis
 
 (All AI art are hand-drawn by us)
 
+## Contributions: 
+For this project, I worked heavily on all the enemy AI which includes:
+
+<ul>
+<li> Idle, Patrol, Alerted, and Distracted states.</li>
+<li> Individual alertness level system.</li>
+<li> Communicating with other guards in the vicinity.</li>
+<li> Interaction with distraction interactibles.</li>
+</ul>
+
 Check it out <a href="https://globalgamejam.org/games/2024/plaigiarism-4" target="_blank">here</a>. 
 
 <img src="/images/Pl.AI.giarism/game.png" width="100%" height="100%">

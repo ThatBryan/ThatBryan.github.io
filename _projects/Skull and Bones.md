@@ -8,7 +8,7 @@ description: Open-World Naval Combat Survival Game
 last-updated: 21-02-2024
 ---
 
-As part of my final year degree program, I had the pleasure of doing an internship at Ubisoft Singapore, working on Skull & Bones.
+As part of my final year degree program, I had the pleasure of doing an internship at Ubisoft Singapore as a UI Gameplay Programmer on Skull and Bones.
 
 Contributions: 
 <ul>
