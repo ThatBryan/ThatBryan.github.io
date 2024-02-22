@@ -11,11 +11,13 @@ last-updated: 21-02-2024
 As part of my final year degree program, I had the pleasure of doing an internship at Ubisoft Singapore, working on Skull & Bones.
 
 Contributions: 
-▪ Collaborated with the UIUX team's product managers, designers, programmers, and artists to ideate, develop,
-and implement new gameplay features.
-▪ Maintained and iterated on existing gameplay features for improved user experience based on feedback.
-▪ Worked with QA testers to identify, diagnose and resolve gameplay related bugs.
-▪ Helped conduct and participate in code reviews to ensure code submitted to production is high quality.
+<ul>
+<li>Collaborated with the UIUX team's product managers, designers, programmers, and artists to ideate, develop, and implement new gameplay features.
+<li> Maintained and iterated on existing gameplay features for improved user experience based on feedback.
+<li> Worked with QA testers to identify, diagnose and resolve gameplay related bugs.
+<li> Helped conduct and participate in code reviews to ensure code submitted to production is high quality.
+</ul>
+
 
 ## <b> TGA Trailer
 <iframe width="100%" height="450" src="https://www.youtube.com/embed/aJy3FXGb6ok" title="Skull and Bones TGA Trailer" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>

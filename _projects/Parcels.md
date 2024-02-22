@@ -11,6 +11,7 @@ school: DigiPen Institute of Technology Singapore
 module: Software Engineering Project 3-4
 description: 2.5D point-n-click narrative adventure game.
 last-updated: 11-07-2023
+download-link: https://drive.google.com/file/d/1yRHwQmvV3t3Yh7wBqhJjfE11Gl0Ddns1/view?usp=sharing
 ---
 
 <style>

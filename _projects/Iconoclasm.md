@@ -11,6 +11,7 @@ school: DigiPen Institute of Technology Singapore
 module: Software Engineering Project 5-6
 description: 3D hack-n-slash action game.
 last-updated: 18-07-2023
+download-link: https://drive.google.com/file/d/1r7dR8RF7yIC1vORw3C0IxRk-135HRuKG/view?usp=drive_link
 ---
 
 <style>
