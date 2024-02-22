@@ -27,6 +27,6 @@ For this project, I worked heavily on all the enemy AI which includes:
 <li> Interaction with distraction interactibles.</li>
 </ul>
 
-Check it out <a href="https://globalgamejam.org/games/2024/plaigiarism-4" target="_blank">here!</a>. 
+Check out the game <a href="https://globalgamejam.org/games/2024/plaigiarism-4" target="_blank">here!</a>. 
 
 <img src="/images/Pl.AI.giarism/game.png" width="100%" height="100%">
