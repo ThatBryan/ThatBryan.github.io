@@ -18,7 +18,7 @@ layout: home
         <p>Hello and thank you for visiting my website!<br><br>
         You can read more about me <a href="/about/">here</a> and view my past projects <a href="/projects/">here</a>.
         
-        <br><br> <i>This website was last updated on: 18/07/2023</i>
+        <br><br> <i>This website was last updated on: 22/02/2024</i>
 
         </p>
     </div>

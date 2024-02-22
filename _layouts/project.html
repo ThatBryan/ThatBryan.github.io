@@ -21,8 +21,11 @@ layout: default
         {%- if page.school-project -%}
         <p><i>{{page.module}}</i></p>
         <p class="subtitle"><i>{{page.school}}</i></p>
+	{%- if page.download-link -%}
+        <p class = "subtitle"><i><a href="{{page.download-link}}" style="color: #90EE90;">Download here!</a></i></p>
         {%- endif -%}
-        {%- if page.download-link -%}
+	{%- else %}
+	{%- if page.download-link -%}
         <p><i><a href="{{page.download-link}}" style="color: #90EE90;">Download here!</a></i></p>
         {%- endif -%}
       </div>
