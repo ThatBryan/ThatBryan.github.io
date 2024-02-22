@@ -18,14 +18,16 @@ As part of my final year degree program, I had the pleasure of doing an internsh
 	<li> Helped conduct and participate in code reviews to ensure code submitted to production is high quality.</li>
 </ul>
 
-## <b> TGA Trailer
+Here are some of the trailers for the game!
+
+### <b> The Game Awards:
 <iframe width="100%" height="450" src="https://www.youtube.com/embed/aJy3FXGb6ok" title="Skull and Bones TGA Trailer" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-## <b> Season 1 Trailer
+### <b> Season 1:
 <iframe width="100%" height="450" src="https://www.youtube.com/embed/s_j0vBUqArk" title="Skull and Bones Season1 Trailer" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-## <b> Launch Trailer
+### <b> Launch:
 <iframe width="100%" height="450" src="https://www.youtube.com/embed/OmDYo7MbQxo" title="Skull and Bones Launch Trailer" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-## <b> Cinematic Trailer
+### <b> Cinematic Trailer:
 <iframe width="100%" height="450" src="https://www.youtube.com/embed/8i2eHxj5NMU" title="Skull and Bones Cinematic Trailer" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>

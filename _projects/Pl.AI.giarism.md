@@ -17,7 +17,7 @@ Made by "The Team" for GGJ Singapore 2024, Pl.ai.giarism (yes it's purposely mis
 
 (All AI art are hand-drawn by us)
 
-## Contributions: 
+### <b>Contributions: 
 For this project, I worked heavily on all the enemy AI which includes:
 
 <ul>
